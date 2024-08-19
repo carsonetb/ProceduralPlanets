@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://1nx6shv3khhh"
+path="res://.godot/imported/moon_compute_heights.glsl-8898fce4967a7db1807706aa77cc3d2b.res"
+
+[deps]
+
+source_file="res://moon_compute_heights.glsl"
+dest_files=["res://.godot/imported/moon_compute_heights.glsl-8898fce4967a7db1807706aa77cc3d2b.res"]
+
+[params]
+

@@ -1,0 +1,29 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://c3xban7it5b6w"]
+
+[ext_resource type="Shader" path="res://Moon.gdshader" id="1_hbpft"]
+[ext_resource type="Texture2D" uid="uid://d01i06cflt8x3" path="res://MoonNoise.png" id="2_60fmd"]
+[ext_resource type="Texture2D" uid="uid://dqhffkve6cprj" path="res://Craters.png" id="2_gdkdu"]
+[ext_resource type="Texture2D" uid="uid://bl2ua20ptwt5n" path="res://Rock2.png" id="4_0infs"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_hbpft")
+shader_parameter/normal_scale_a = 15.0
+shader_parameter/normal_scale_b = 12.0
+shader_parameter/main_tex_scale = 0.5
+shader_parameter/normal_blend_sharpness = 8.0
+shader_parameter/light_brightness = 3.0
+shader_parameter/normal_map_strength = 0.85
+shader_parameter/height_min_max = Vector2(0, 1)
+shader_parameter/world_space_light_pos = Vector3(0.0681329, 0.955493, -0.287039)
+shader_parameter/light_color = Color(1, 1, 0.917647, 1)
+shader_parameter/primary_color = Color(1, 1, 1, 1)
+shader_parameter/secondary_color = Color(0.768627, 0.643137, 0.537255, 1)
+shader_parameter/metalic_a = null
+shader_parameter/metalic_b = 0.49
+shader_parameter/roughness_a = 0.0
+shader_parameter/roughness_b = 29.35
+shader_parameter/random_biome_values = Vector4(1.85, -2.88, 0.75, -0.84)
+shader_parameter/main_tex = ExtResource("2_60fmd")
+shader_parameter/normal_map = ExtResource("2_gdkdu")
+shader_parameter/steep_normal_map = ExtResource("4_0infs")

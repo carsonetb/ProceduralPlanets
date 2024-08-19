@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cv8dvlxum34yl"]
+
+[ext_resource type="Script" path="res://OctoPlanet.gd" id="1_usrla"]
+[ext_resource type="Script" path="res://OctoPlanetMeshGenerator.gd" id="2_xqjww"]
+
+[node name="OctoPlanet" type="Node3D"]
+script = ExtResource("1_usrla")
+resolution = 2
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+script = ExtResource("2_xqjww")

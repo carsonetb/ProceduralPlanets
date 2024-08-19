@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://gt6dqggnb3f1"
+path="res://.godot/imported/planet_compute_heights.glsl-056352ca3868d37b47e0daca9f999445.res"
+
+[deps]
+
+source_file="res://planet_compute_heights.glsl"
+dest_files=["res://.godot/imported/planet_compute_heights.glsl-056352ca3868d37b47e0daca9f999445.res"]
+
+[params]
+
